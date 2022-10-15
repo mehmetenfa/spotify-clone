@@ -1,8 +1,10 @@
+import logo from "../img/logo.svg"
+
 
 const Sidebar = () => {
   return (
-    <aside>
-        sidebar
+    <aside className="w-60">
+        <img src={logo} alt="" />
     </aside>
   )
 }

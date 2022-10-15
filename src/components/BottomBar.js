@@ -2,7 +2,7 @@
 
 const Bottombar = () => {
   return (
-    <div>
+    <div className="h-24">
         bottom bar
     </div>
   )

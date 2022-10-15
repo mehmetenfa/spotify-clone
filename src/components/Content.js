@@ -1,7 +1,10 @@
+import Navbar from "components/Navbar"
+
 
 const Content = () => {
   return (
-    <main>
+    <main className="flex-auto">
+        <Navbar />
         content
     </main>
   )
